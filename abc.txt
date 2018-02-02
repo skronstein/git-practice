@@ -1,1 +1,6 @@
 changed
+
+void CamDoubleSpinBox::mouseReleaseEvent(QMouseEvent * e)
+{
+	QDoubleSpinBox::mouseReleaseEvent(e);
+}
